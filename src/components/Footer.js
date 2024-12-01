@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -13,28 +14,27 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-sm mb-2">Product</h4>
             <ul className="space-y-2">
-              <li><a href="/">Overview</a></li>
-              <li><a href="/">Pricing</a></li>
-              <li><a href="/">Customer stories</a></li>
+              <li><Link href="/">Overview</Link></li>
+              <li><Link href="/">Pricing</Link></li>
+              <li><Link href="/">Customer stories</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="font-bold text-sm mb-2">Resources</h4>
             <ul className="space-y-2">
-              <li><a href="/">Blog</a></li>
-              <li><a href="/">Guides & tutorials</a></li>
-              <li><a href="/">Help center</a></li>
+              <li><Link href="/">Blog</Link></li>
+              <li><Link href="/">Guides & tutorials</Link></li>
+              <li><Link href="/">Help center</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="font-bold text-sm mb-2">Company</h4>
             <ul className="space-y-2">
-              <li><a href="/">About us</a></li>
-              <li><a href="/">Careers</a></li>
-              <li><a href="/">Media kit</a></li>
+              <li><Link href="/">About us</Link></li>
+              <li><Link href="/">Careers</Link></li>
+              <li><Link href="/">Media kit</Link></li>
             </ul>
-          </div>
-          <div>
+          </div>Link          <div>
             <h4 className="font-bold text-sm mb-2">Try It Today</h4>
             <p className="mb-4">Get started for free. Add your whole team as your needs grow.</p>
             <button className="text-white font-bold py-2 px-4 rounded">
@@ -46,16 +46,16 @@ const Footer = () => {
       <hr />
       <div className='flex justify-between text-white'>
         <nav>
-            <a href=''>English</a>
-            <a href=''>Terms & Privacy</a>
-            <a href=''>Security</a>
-            <a href=''>Status</a>
-            <a href=''>@2021 Whitepace LLC</a>
+            <Link href=''>English</Link>
+            <Link href=''>Terms & Privacy</Link>
+            <Link href=''>Security</Link>
+            <Link href=''>Status</Link>
+            <Link href=''>@2021 Whitepace LLC</Link>
         </nav>
         <nav>
-            <a href=''><img src='' /></a>
-            <a href=''><img src='' /></a>
-            <a href=''><img src='' /></a>
+            <Link href=''><img src='' /></Link>
+            <Link href=''><img src='' /></Link>
+            <Link href=''><img src='' /></Link>
         </nav>
       </div>
     </footer>
